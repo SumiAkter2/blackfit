@@ -4,4 +4,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+    height: 100vh;
+}
+.banner-content{
+    height: 100vh;
+    background: #000;
+    color: #fff;
+
 }

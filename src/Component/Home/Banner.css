@@ -4,17 +4,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    position: relative;
-    z-index:- 1;
-    /* height: 100px; */
-    /* width: 400px; */
 }
-.banner-content{
-    /* height: 100vh; */
-    background: #000;
-    color: #fff;
 
+.banner-content{
+   background: #000;
+   color: #fff;
 }
+
 .banner-container h1{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;

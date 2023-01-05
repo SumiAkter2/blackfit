@@ -1,22 +1,111 @@
-import React, { useState } from "react";
-import { HiMenuAlt2 } from "react-icons/hi";
-import { AiOutlineClose } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { ImFacebook } from "react-icons/im";
+import { BsTwitter } from "react-icons/bs";
 import "./Navbar.css";
 import BrandLogo from "../../img/1471828-middle-removebg-preview.png";
-import { navMenu } from "../../info";
-const Navbar = () => {
-  const [menu, setMenu] = useState(false);
+
+import { NavLink } from "react-router-dom";
+const Navbar = ({ children }) => {
+  // const [menu, setMenu] = useState(false);
 
   return (
     <div>
-      <div className="navbar bg-black text-white ">
+      <div className="">
+        <div className="drawer drawer-end fixed top-0">
+          <input id="  my-drawer-3" type="checkbox" className="drawer-toggle" />
+          <div className="drawer-content flex flex-col">
+            <div className="flex justify-between items-center bg-black text-black opacity-80 p-4 ">
+              <div className="flex justify-around w-1/2">
+                <p className="text-white lg:block hidden">Park Street USA</p>
+                <p className="text-white ">blackfit@gmail.com</p>
+                <p className="text-white lg:block hidden">
+                  Mon-Fri 08:00-18:00
+                </p>
+              </div>
+              <div className="flex lg:justify-around  items-center  text-primary">
+                <ImFacebook className="lg:mr-6 mr-2 hover:text-neutral" />
+                <BsTwitter className="lg:mr-6 mr-2  hover:text-neutral" />
+                <FaLinkedinIn className="lg:mr-6 mr-2 hover:text-neutral" />
+              </div>
+            </div>
+            <div className="w-full navbar bg-black text-white p-12">
+              <div className="flex-1 px-2 mx-2 font-bold text-2xl">
+                <img
+                  style={{ width: "70px" }}
+                  src={BrandLogo}
+                  alt="brand-logo"
+                  className="mr-4"
+                />
+                Best Tools co.
+              </div>
+              <div className="flex-none lg:hidden">
+                <label for="  my-drawer-3" className="btn btn-square btn-ghost">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    className="inline-block w-6 h-6 stroke-current"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                  </svg>
+                </label>
+              </div>
+
+              <div className="flex-none hidden lg:block  ">
+                <ul className="menu  menu-horizontal gap-x-2  ">
+                  <li>
+                    <NavLink className="rounded-lg  my-2 " to="/">
+                      Home
+                    </NavLink>
+                  </li>
+
+                  <li>
+                    <NavLink className="rounded-lg  my-2" to="/blogs">
+                      Blogs
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="rounded-lg  my-2" to="/myportfolio">
+                      Portfolio
+                    </NavLink>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {children}
+          </div>
+          <div className="drawer-side   ">
+            <label for="  my-drawer-3" className="drawer-overlay"></label>
+            <ul className="menu p-2 overflow-y-auto w-80 bg-base-100">
+              <li>
+                <NavLink className="rounded-lg  my-2 " to="/">
+                  Home
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink className="rounded-lg  my-2" to="/blogs">
+                  Blogs
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/* <div className="navbar bg-black text-white ">
         <div className={` navbar-start`}>
                   <a className="btn btn-ghost normal-case text-xl" href="/">
                       <img src={BrandLogo} alt="brandLogo" className="w-12 h-12" />
             BlackFit
           </a>
         </div>
-        {/* for desktop */}
+       
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 ">
             {navMenu.map((item, index) => {
@@ -28,7 +117,7 @@ const Navbar = () => {
             })}
           </ul>
         </div>
-        {/* for mobile */}
+       
         <div className="navbar-end">
           <div
             onClick={() => setMenu(!menu)}
@@ -50,7 +139,7 @@ const Navbar = () => {
             })}
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

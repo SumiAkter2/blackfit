@@ -34,7 +34,71 @@
     font-family: inherit;
     background: transparent;
 }
+.banner-next-info{
+    background-image: url("../../img/pexels-airam-datoon-13106586.jpg");
+}
+.banner-next-info2{
+    background-image: url("../../img/pexels-cottonbro-studio-4753892.jpg");
+}
+.banner-next-info3 {
+    background-image: url("../../img/pexels-cottonbro-studio-4753996.jpg");
+}
+.btns {
+    --color: #f9f9f9;
+    --color2: rgb(10, 25, 30);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 600;
+    z-index: 1;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
 
+.btns::after,
+.btns::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.btns::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btns:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btns:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.btns:hover {
+    color: var(--color2);
+}
+
+.btns:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
 .button::before {
     content: "Let's Start";
     position: absolute;
@@ -78,13 +142,7 @@
     transform: scale(1) rotateY(360deg);
     opacity: 1;
 }
-.banner-next-info{
-    margin-top: -30px;
-    z-index: 20;
-    /* position: absolute; */
-    
-   
-}
+
 /* animation */
 .zoom-in {
 animation: zoom-in 80s ease-out infinite;

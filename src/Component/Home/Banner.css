@@ -1,13 +1,16 @@
 .banner-container{
-    background-image: url('../../img/pose-muscle-muscle-rod-press-hd-wallpaper-preview.jpg');
-    background-position: center;
+    background: url('../../img/pose-muscle-muscle-rod-press-hd-wallpaper-preview.jpg');
+  background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    height: 100vh;
+    position: relative;
+    z-index:- 1;
+    /* height: 100px; */
+    /* width: 400px; */
 }
 .banner-content{
-    height: 100vh;
+    /* height: 100vh; */
     background: #000;
     color: #fff;
 
@@ -18,7 +21,8 @@
     font-size: 80px;
     line-height: 1.5;
 }
-button {
+
+.button {
     padding: 0.9em 1.8em;
     text-transform: uppercase;
     text-decoration: none;
@@ -31,7 +35,7 @@ button {
     background: transparent;
 }
 
-button::before {
+.button::before {
     content: "Let's Start";
     position: absolute;
     top: 0;
@@ -46,13 +50,13 @@ button::before {
     transition: all 0.5s;
 }
 
-button:hover::before {
+.button:hover::before {
     left: 100%;
     transform: scale(0) rotateY(360deg);
     opacity: 0;
 }
 
-button::after {
+.button::after {
     content: "Let's Start";
     position: absolute;
     top: 0;
@@ -69,8 +73,37 @@ button::after {
     opacity: 0;
 }
 
-button:hover::after {
+.button:hover::after {
     left: 0;
     transform: scale(1) rotateY(360deg);
     opacity: 1;
+}
+.banner-next-info{
+    margin-top: -30px;
+    z-index: 20;
+    /* position: absolute; */
+    
+   
+}
+/* animation */
+.zoom-in {
+animation: zoom-in 80s ease-out infinite;
+}
+
+/* @keyframes zoom-in {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+    100%{
+        transform: scale(1, 1);
+    }
+} */
+@media screen and (max-width:560px){
+    .banner-container h1 {
+           
+        }
 }

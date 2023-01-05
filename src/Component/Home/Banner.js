@@ -1,118 +1,69 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import brandLogo from "../../img/1471828-middle-removebg-preview.png";
 import "./Banner.css";
-const Banner = ({ children }) => {
+import { banner } from "../../info";
+const Banner = () => {
+  const { titlePart1, titlePart2, subtitle, textBtn } = banner;
   return (
-    <div className="banner-container hero">
-      <div className="banner-content opacity-70 hero-overlay"> </div>
-      {/* navbar section */}
-      <div className="drawer drawer-end fixed top-0 text-primary">
-        <input id="  my-drawer-3" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content  flex flex-col">
-          <div className="w-full navbar  lg:px-12   ">
-            <div className="flex-1 px-2 lg:mx-2 font-bold text-2xl">
-              <img
-                style={{ width: "70px" }}
-                src={brandLogo}
-                alt="bitcoin-logo"
-              />
-              <h2 className="text-primary lg:text-4xl text-2xl font-serif">
-                BlackFit
-              </h2>
-            </div>
+    <div className="">
+      <div className="banner-container hero ">
+        <div className="banner-content opacity-70 hero-overlay"> </div>
+        <div className="hero-content ">
+          <div className="text-center mt-48">
+            <h1 className="text-black lg:text-5xl text-xl font-serif font-bold uppercase ">
+              <span> {titlePart1}</span>
+            </h1>
+            <h1 className="text-primary lg:text-5xl  font-serif font-bold uppercase ">
+              {titlePart2}
+            </h1>
 
-            <div className="flex-none lg:hidden">
-              <label for="  my-drawer-3" className="btn btn-square btn-ghost">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  className="inline-block w-6 h-6 stroke-current"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  ></path>
-                </svg>
-              </label>
-            </div>
+            <p className=" text-gray-500 mt-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam a ratione animi neque distinctio eum, mollitia tempore
+            </p>
 
-            <div className="flex-none hidden lg:block  ">
-              <ul className="menu  menu-horizontal gap-x-2  ">
-                <li>
-                  <NavLink className="rounded-md h-12 my-auto" to="/">
-                    Home
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="rounded-md h-12 my-auto" to="/coin">
-                    Coins
-                  </NavLink>
-                </li>
+            <button className="my-12 button">
+              <span></span>Let's Start
+            </button>
 
-                <li>
-                  <NavLink className="rounded-md h-12 my-auto" to="/about">
-                    About
-                  </NavLink>
-                </li>
-
-                <li>
-                  <NavLink className="rounded-md h-12 my-auto" to="/contact">
-                    Contact
-                  </NavLink>
-                </li>
-              </ul>
+            <div className=" lg:mt-12 p-6 lg:p-12 mb-6">
+              <p className="text-xl text-primary font-bold font-serif uppercase">
+                Want to be healthy and have a perfect body? BLACKFIT is the
+                right decision for you! It will create your personal training
+                program and balance your diet so you could get the shape of your
+                dream shortly!
+              </p>
             </div>
           </div>
-
-          {children}
-        </div>
-        <div className="drawer-side   ">
-          <label for="  my-drawer-3" className="drawer-overlay"></label>
-          <ul className="menu p-2 overflow-y-auto w-80 bg-base-100">
-            <li>
-              <NavLink className="rounded-md h-12 my-auto" to="/">
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="rounded-md h-12 my-auto" to="/coin">
-                Coins
-              </NavLink>
-            </li>
-
-            <li>
-              <NavLink className="rounded-md h-12 my-auto" to="/about">
-                About
-              </NavLink>
-            </li>
-
-            <li>
-              <NavLink className="rounded-md h-12 my-auto" to="/contact">
-                Contact
-              </NavLink>
-            </li>
-          </ul>
         </div>
       </div>
-      {/* banner text */}
-      <div className="hero-content">
-        <div className="text-center ">
-          <h1 className="text-black lg:text-5xl text-3xl font-serif font-bold uppercase ">
-            <span > Keep Your body</span>
-          </h1>
-          <h1 className="text-primary lg:text-5xl text-3xl font-serif font-bold uppercase">
-            Fit Strong
-          </h1>
-
-          <button className="mt-12">
-            <span></span>Let's Start
-          </button>
+      {/* ======banner next info=========== */}
+      {/* <div
+        className=" grid grid-cols-1 lg:grid-cols-3  
+     banner-info banner-next-info mx-auto gap-12"
+      >
+        <div className="bg-info p-6">
+          <h1>Upcoming Classes See what is next</h1>
+          <div className="flex justify-between items-center">
+            <p>Active Adults</p>
+            <p>11:00 am - 02:00 pm</p>
+          </div>
+          <div className="flex justify-between items-center">
+            <p>Active Kids</p>
+            <p>02:00 pm - 05:00 pm</p>
+          </div>
         </div>
-      </div>
+        <div className="bg-secondary p-6">
+          <h1>Upcoming Classes See what is next</h1>
+          <div className="flex justify-between items-center">
+            <p>Active Adults</p>
+            <p>11:00 am - 02:00 pm</p>
+          </div>
+          <div className="flex justify-between items-center">
+            <p>Active Kids</p>
+            <p>02:00 pm - 05:00 pm</p>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 };

@@ -27,7 +27,7 @@ const Banner = () => {
               <span></span>Let's Start
             </button>
 
-            <div className=" lg:mt-12 p-6 lg:p-12 mb-6">
+            <div className=" lg:mt-12 p-6 lg:p-12 ">
               <p className="text-xl text-primary font-bold font-serif uppercase">
                 Want to be healthy and have a perfect body? BLACKFIT is the
                 right decision for you! It will create your personal training
@@ -41,7 +41,7 @@ const Banner = () => {
       {/* ======banner next info=========== */}
       <div
         className=" lg:flex   
-     mx-auto mb-6 "
+     mx-auto"
       >
         <div className="hero flex-1 banner-next-info">
           <div className="hero-overlay bg-black bg-opacity-50"></div>

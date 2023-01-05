@@ -6,11 +6,12 @@ const About = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={aboutImg}
-          className="max-w-md rounded-lg shadow-2xl"
+          className="max-w-sm rounded-lg shadow-2xl"
           alt="gym-img"
         />
         <div>
-          <h1 className="text-5xl font-bold">
+          <p className="text-sm my-12">About us</p>
+          <h1 className="lg:text-3xl text-xl font-bold">
             From the moment you walk through the door you know BlackFit is a
             unique place
           </h1>
@@ -21,7 +22,22 @@ const About = () => {
             the most effective tools for success. This meant we needed to offer
             a wide range of classes both for children and adults.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+
+          <div className="lg:flex justify-between items-center w-1/2">
+            <div className="mt-4">
+              <p className="text-sm">ENVIRONMENT </p>
+              <p>Clean and Airy</p>
+            </div>
+            <div className="mt-4">
+              <p className="text-sm">CLASSES </p>
+              <p>Every Level</p>
+            </div>
+            <div className="mt-4">
+              <p className="text-sm">PRICES </p>
+              <p>Affordable</p>
+            </div>
+          </div>
+          <button className="btns mt-12">Learn More</button>
         </div>
       </div>
     </section>

@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { BsPlayCircleFill } from "react-icons/bs";
 import ModalVideo from "react-modal-video";
-import img from "../../img/pexels-josef-pascal-1978505.jpg";
 import "./style.css";
-import video from "../../assets/pexels-tima-miroshnichenko-5319759.mp4";
+
 const WhoWeAre = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -48,7 +47,6 @@ const WhoWeAre = () => {
         onClose={() => setIsOpen(false)}
       />
       <div className="flex justify-center items-center mt-12">
-       
         <button className="btns ">Free Consultation</button>
       </div>
     </div>

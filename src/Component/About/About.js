@@ -10,7 +10,7 @@ const About = () => {
           alt="gym-img"
         />
         <div>
-          <p className="text-sm my-12">About us</p>
+          <p className="text-sm mb-12">About us</p>
           <h1 className="lg:text-3xl text-xl font-bold">
             From the moment you walk through the door you know BlackFit is a
             unique place

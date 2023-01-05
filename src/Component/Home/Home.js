@@ -2,6 +2,8 @@ import React from "react";
 import About from "../About/About";
 import Classes from "../Classes/Classes";
 import FatBurning from "../FatBurning/FatBurning";
+import Pricing from "../Pricing/Pricing";
+import Team from "../Team/Team";
 import WhoWeAre from "../WhoWeAre/WhoWeAre";
 import Banner from "./Banner";
 
@@ -13,6 +15,8 @@ const Home = () => {
       <About />
       <Classes />
       <FatBurning />
+      <Pricing />
+      <Team />
     </div>
   );
 };

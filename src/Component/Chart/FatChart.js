@@ -2,10 +2,7 @@ import React from "react";
 import {
   Bar,
   BarChart,
-  CartesianGrid,
-  LabelList,
   Legend,
-  ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,

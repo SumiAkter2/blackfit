@@ -4,6 +4,7 @@ import ChoseUs from "../ChoseUs/ChoseUs";
 import Classes from "../Classes/Classes";
 import FatBurning from "../FatBurning/FatBurning";
 import Pricing from "../Pricing/Pricing";
+import Subscribe from "../Subscribe/Subscribe";
 import Team from "../Team/Team";
 import WhoWeAre from "../WhoWeAre/WhoWeAre";
 import Banner from "./Banner";
@@ -14,11 +15,12 @@ const Home = () => {
       <Banner />
       <WhoWeAre />
       <About />
-      <Classes />
-      <FatBurning />
       <Pricing />
       <ChoseUs />
+      <Classes />
+      <FatBurning />
       <Team />
+      <Subscribe/>
     </div>
   );
 };

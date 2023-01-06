@@ -28,26 +28,26 @@ const Team = () => {
       <div className="lg:flex justify-center items-start py-12 px-6 ">
         <div className="  img-container mx-auto mt-4">
           <img src={team} alt="team-member-img" className="image" />
-          <div class="overlays">
-            <div class="text">Jennifer</div>
+          <div className="overlays">
+            <div className="text">Jennifer</div>
           </div>
         </div>
         <div className="  img-container mx-auto mt-4">
           <img src={team2} alt="team-member-img" className="image" />
-          <div class="overlays">
-            <div class="text">Natalia</div>
+          <div className="overlays">
+            <div className="text">Natalia</div>
           </div>
         </div>
         <div className="  img-container mx-auto mt-4">
           <img src={team3} alt="team-member-img" className="image" />
-          <div class="overlays">
-            <div class="text">Trashcan </div>
+          <div className="overlays">
+            <div className="text">Trashcan </div>
           </div>
         </div>
         <div className="  img-container mx-auto mt-4">
           <img src={team4} alt="team-member-img" className="image" />
-          <div class="overlays">
-            <div class="text">Leo Bro</div>
+          <div className="overlays">
+            <div className="text">Leo Bro</div>
           </div>
         </div>
       </div>

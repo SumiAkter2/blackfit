@@ -25,9 +25,6 @@ const WhoWeAre = () => {
       <div className="container mx-auto ">
         <div
           className="bg-video h-[310px] bg-cover bg-center bg-no-repeat lg:h-[422px]  lg:w-[900px] w-[400px]  flex justify-center items-center rounded-md mt-[60px] pb-12  mx-auto  "
-          data-aos="fade-up"
-          data-aos-duration="1500"
-          data-aos-offset="500"
         >
           <div
             onClick={() => setIsOpen(!isOpen)}

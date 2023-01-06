@@ -1,0 +1,10 @@
+.notfound-content img{
+width: 900px;
+height: 400px;
+margin: 0 auto;
+}
+@media screen and (max-width:560px) {
+    .notfound-content img {
+            width: 400px;
+    }
+}

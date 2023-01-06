@@ -56,7 +56,7 @@ const Banner = () => {
                 The point of using Lorem Ipsum is that it has pi motive
                 re-or-less for normal distribution.
               </p>
-              <button class="btns"> view Progression</button>
+              <button className="btns"> view Progression</button>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ const Banner = () => {
                 Ready to kick start your new healthy lifestyle? Contact us for a
                 20% off your introductory training session.
               </p>
-              <button class="btns"> view Class Schedule</button>
+              <button className="btns"> view Class Schedule</button>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ const Banner = () => {
                 Our members wanted more flexible opening hours, so we offer them
                 24/7 access since the last year.
               </p>
-              <button class="btns"> Find Your Perfect Plan</button>
+              <button className="btns"> Find Your Perfect Plan</button>
             </div>
           </div>
         </div>

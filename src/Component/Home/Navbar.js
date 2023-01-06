@@ -36,7 +36,7 @@ const Navbar = ({ children }) => {
                   alt="brand-logo"
                   className="mr-4"
                 />
-                Best Tools co.
+                <a href="/"> Best Tools co.</a>
               </div>
               <div className="flex-none lg:hidden">
                 <label for="  my-drawer-3" className="btn btn-square btn-ghost">
@@ -65,13 +65,18 @@ const Navbar = ({ children }) => {
                   </li>
 
                   <li>
-                    <NavLink className="rounded-lg  my-2" to="/blogs">
-                      Blogs
+                    <NavLink className="rounded-lg  my-2" to="/gallery">
+                      Gallery
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="rounded-lg  my-2" to="/myportfolio">
-                      Portfolio
+                    <NavLink className="rounded-lg  my-2" to="/services">
+                      Services
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="rounded-lg  my-2" to="/signup">
+                      Sign Up
                     </NavLink>
                   </li>
                 </ul>

@@ -4,7 +4,7 @@ const PricingCard = ({ course }) => {
   return (
     <div>
       <div className="card bg-transparent shadow-xl border mx-12 mt-6 my-12">
-        <figure className=" w-32 h-32 mx-auto">
+        <figure className=" w-32 h-32 mx-auto bg-white rounded-lg my-4">
           <img src={course.img} alt="Logo" className="rounded-xl " />
         </figure>
         <div className="card-body items-center text-center">

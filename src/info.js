@@ -53,6 +53,6 @@ export const courses = [
     title2: "Diet Plan Included",
     title3: "6 Days a Week",
     title4: "Zumba Classes",
-    img: "https://i.ibb.co/s9KXykQ/1471828-middle-removebg-preview.png",
+    img: "https://i.ibb.co/F3YXH1k/arm.png",
   },
 ];

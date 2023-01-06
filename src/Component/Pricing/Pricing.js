@@ -11,12 +11,12 @@ const Pricing = () => {
         style={{ fontSize: "90px" }}
       >
         <span
-          className="text-black pt-12"
+          className="text-black "
           style={{ WebkitTextStroke: "1px white" }}
         >
           PROGRAM
         </span>
-        <span className="text-primary"> PRICING</span>
+        <span className="text-primary mt-12"> PRICING</span>
       </h1>
       <div className="bg-pricing text-white ">
         <div className="bg-black opacity-50">

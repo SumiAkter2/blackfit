@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../About/About";
+import ChoseUs from "../ChoseUs/ChoseUs";
 import Classes from "../Classes/Classes";
 import FatBurning from "../FatBurning/FatBurning";
 import Pricing from "../Pricing/Pricing";
@@ -16,6 +17,7 @@ const Home = () => {
       <Classes />
       <FatBurning />
       <Pricing />
+      <ChoseUs />
       <Team />
     </div>
   );

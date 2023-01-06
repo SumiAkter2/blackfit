@@ -8,7 +8,7 @@ const Team = () => {
   return (
     <div className="bg-black text-primary">
       <h1
-        className="text-center  lg:text-5xl text-3xl font-bold pt-12 "
+        className="text-center  lg:text-5xl text-3xl font-bold pt-12 uppercase"
         style={{ fontSize: "90px" }}
       >
         <span
@@ -17,12 +17,15 @@ const Team = () => {
         >
           Meet
         </span>
-        <span className="text-primary"> Our Team</span>
+        <span className="text-primary"> Our COACHES</span>
       </h1>
       <p className="text-gray-500 text-center  mx-auto my-6 lg:max-w-lg">
         We are a team of experienced people, nutrition, sports and fitness
         passionate experts with talent and knowledge unsurpassed in the
-        industry. Get to know us. Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo sequi laborum molestiae eligendi perferendis hic eum a explicabo enim quia, quis facilis quos, optio nobis? Consequatur repellat sint harum.
+        industry. Get to know us. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. In nemo sequi laborum molestiae eligendi perferendis
+        hic eum a explicabo enim quia, quis facilis quos, optio nobis?
+        Consequatur repellat sint harum.
       </p>
       <div className="lg:flex justify-center items-start py-12 px-6 ">
         <div className="  img-container mx-auto mt-4">

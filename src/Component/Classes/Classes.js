@@ -3,7 +3,9 @@ import { BsArrowRight } from "react-icons/bs";
 import img from "../../img/class.jpg";
 import img2 from "../../img/class2.jpg";
 import img3 from "../../img/class3.jpg";
+import "aos/dist/aos.css";
 import "./Classes.css";
+
 const Classes = () => {
   return (
     <div className="bg-black ">
@@ -26,7 +28,7 @@ const Classes = () => {
       </p>
 
       <div className="lg:flex justify-center items-center py-12 gap-x-6">
-        <div className="img-effect mt-4 mx-auto lg:mx-0">
+        <div className="img-effect mt-4 mx-auto lg:mx-0 ">
           <img src={img} alt="" className="img-body" />
           <div class="overlay flex justify-between items-center">
             <div>

@@ -1,10 +1,13 @@
 import React from "react";
+import { courses } from "../../info";
+import PricingCard from "./PricingCard";
+import "./Pricing.css";
 
 const Pricing = () => {
   return (
-    <div className="bg-black text-white">
+    <div>
       <h1
-        className="text-center  lg:text-5xl text-3xl font-bold pt-12 "
+        className="text-center bg-black lg:text-5xl text-3xl font-bold py-12 "
         style={{ fontSize: "90px" }}
       >
         <span
@@ -15,6 +18,15 @@ const Pricing = () => {
         </span>
         <span className="text-primary"> PRICING</span>
       </h1>
+      <div className="bg-pricing text-white ">
+        <div className="bg-black opacity-50">
+          <div className="grid lg:grid-cols-3 gap-4">
+            {courses.map((course) => (
+              <PricingCard key={course.id} course={course}></PricingCard>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

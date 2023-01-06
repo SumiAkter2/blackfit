@@ -28,7 +28,7 @@ const Team = () => {
         <div className="  img-container mx-auto mt-4">
           <img src={team} alt="team-member-img" className="image" />
           <div class="overlays">
-            <div class="text">Jinilia</div>
+            <div class="text">Jennifer</div>
           </div>
         </div>
         <div className="  img-container mx-auto mt-4">
@@ -40,7 +40,7 @@ const Team = () => {
         <div className="  img-container mx-auto mt-4">
           <img src={team3} alt="team-member-img" className="image" />
           <div class="overlays">
-            <div class="text">Tini </div>
+            <div class="text">Trashcan </div>
           </div>
         </div>
         <div className="  img-container mx-auto mt-4">

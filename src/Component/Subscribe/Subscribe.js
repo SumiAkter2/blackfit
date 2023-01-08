@@ -2,9 +2,9 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <div className="bg-black py-6  px-6">
-      <div className=" lg:flex justify-evenly items-center my-24 bg-gray-800 opacity-30 p-12 lg:m-12 rounded-md ">
-        <div>
+    <div className="bg-black py-6  px-6 ">
+      <div className=" lg:flex justify-evenly items-center my-24 bg-gray-800  p-12 lg:m-12 rounded-md ">
+        <div className="text-white">
           <h1 className="text-3xl text-center text-white">
             SIGN UP TO NEWSLETTER
           </h1>

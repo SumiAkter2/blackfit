@@ -19,8 +19,7 @@ ul {
 
 .image-gallery {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+          gap: 10px;
 }
 
 .image-gallery>li {
@@ -32,7 +31,7 @@ ul {
 }
 
 .image-gallery::after {
-    content: "";
+    content: "  ";
     flex-grow: 999;
 }
 

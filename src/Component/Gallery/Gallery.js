@@ -14,8 +14,8 @@ import img13 from "../../img/shutterstock_1012770097-min-scaled.jpg";
 import img14 from "../../img/class.jpg";
 import img15 from "../../img/class2.jpg";
 import img16 from "../../img/class3.jpg";
-
 import "./Gallery.css";
+
 const Gallery = () => {
   return (
       <div>

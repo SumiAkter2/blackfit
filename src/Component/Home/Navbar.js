@@ -10,7 +10,7 @@ const Navbar = ({ children }) => {
 
   return (
     <div>
-      <div className="">
+      <div >
         <div className="drawer drawer-end fixed top-0">
           <input id="  my-drawer-3" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col">
@@ -29,14 +29,14 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="w-full navbar bg-black text-white p-12">
-              <div className="flex-1 px-2 mx-2 font-bold text-2xl">
+              <div className="flex-1 font-bold text-2xl">
                 <img
                   style={{ width: "70px" }}
                   src={BrandLogo}
                   alt="brand-logo"
-                  className="mr-4"
+                  className="lg:mr-4 mr-2"
                 />
-                <a href="/"> Best Tools co.</a>
+                <a href="/"> BlackFit</a>
               </div>
               <div className="flex-none lg:hidden">
                 <label for="  my-drawer-3" className="btn btn-square btn-ghost">
@@ -95,8 +95,18 @@ const Navbar = ({ children }) => {
               </li>
 
               <li>
-                <NavLink className="rounded-lg  my-2" to="/blogs">
-                  Blogs
+                <NavLink className="rounded-lg  my-2" to="/gallery">
+                  Gallery
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="rounded-lg  my-2" to="/services">
+                  Services
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="rounded-lg  my-2" to="/signup">
+                  Sign Up
                 </NavLink>
               </li>
             </ul>

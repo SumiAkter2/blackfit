@@ -1,6 +1,6 @@
 .notfound-content img{
-width: 900px;
-height: 400px;
+width: 100%;
+height: 100vh;
 margin: 0 auto;
 }
 @media screen and (max-width:560px) {

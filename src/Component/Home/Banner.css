@@ -1,6 +1,6 @@
 .banner-container{
     background: url('../../img/pose-muscle-muscle-rod-press-hd-wallpaper-preview.jpg');
-  background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -158,6 +158,6 @@ animation: zoom-in 80s ease-out infinite;
 } */
 @media screen and (max-width:560px){
     .banner-container h1 {
-           
+           font-size: 25px;
         }
 }

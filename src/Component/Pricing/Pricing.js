@@ -5,15 +5,12 @@ import "./Pricing.css";
 
 const Pricing = () => {
   return (
-    <div>
+    <div className="">
       <h1
-        className="text-center bg-black lg:text-5xl text-3xl font-bold py-12 "
+        className="text-center bg-black lg:text-5xl text-3xl font-bold py-12 pricing-content"
         style={{ fontSize: "90px" }}
       >
-        <span
-          className="text-black "
-          style={{ WebkitTextStroke: "1px white" }}
-        >
+        <span className="text-black " style={{ WebkitTextStroke: "1px white" }}>
           PROGRAM
         </span>
         <span className="text-primary mt-12"> PRICING</span>

@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../img/istockphoto-1132086660-612x612.jpg";
 import FatChart from "../Chart/FatChart";
+
 const FatBurning = () => {
   return (
     <div className="lg:flex justify-center items-start bg-black text-primary py-6 opacity-95 px-4">

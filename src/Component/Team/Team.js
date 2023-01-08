@@ -8,7 +8,7 @@ const Team = () => {
   return (
     <div className="bg-black text-primary pb-12">
       <h1
-        className="text-center  lg:text-5xl text-3xl font-bold pt-12 uppercase"
+        className="text-center  lg:text-5xl text-3xl font-bold pt-12 uppercase team-content"
         style={{ fontSize: "90px" }}
       >
         <span

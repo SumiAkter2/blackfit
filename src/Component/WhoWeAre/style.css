@@ -1,6 +1,13 @@
 @import '../../../node_modules/react-modal-video/scss/modal-video.scss';
 .bg-video{
-    background-image: url('../../img/pexels-sabel-blanco-1738629.jpg');
-    /* width: 800px;
-    height: 600px; */
+    background-image: url('../../img/21-3498608-Deadlift-GIF-bcfccee88c444efcb2868d29fcfa03a0.gif');
+   
+}
+@media screen and (max-width:560px) {
+.weAre-content span {
+        font-size: 25px;
+    }
+    .bg-video{
+        width:300px ;
+    }
 }

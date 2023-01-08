@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Bar,
-  BarChart,
-  Legend,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
+import { Bar, BarChart, Legend, Tooltip, XAxis, YAxis } from "recharts";
 
 const FatChart = () => {
   const data = [
@@ -33,14 +26,14 @@ const FatChart = () => {
   return (
     <div>
       <BarChart
-        className="text-green-500 mt-12"
-        width={400}
+        className="text-green-500 mt-12 chat"
+        width={300}
         height={200}
         data={data}
         margin={{
           top: 5,
           right: 30,
-          left: 20,
+          left: 10,
           bottom: 5,
         }}
         barSize={20}

@@ -20,3 +20,9 @@
 .img-effect:hover .overlay {
     opacity: 1;
 }
+
+@media screen and (max-width:560px) {
+    .classes-content span{
+        font-size: 25px;
+    }
+}

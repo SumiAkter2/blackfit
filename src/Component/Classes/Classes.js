@@ -10,7 +10,7 @@ const Classes = () => {
   return (
     <div className="bg-black ">
       <h1
-        className="text-center  lg:text-5xl text-3xl font-bold pt-12 "
+        className="text-center  lg:text-5xl text-3xl font-bold pt-12 classes-content"
         style={{ fontSize: "90px" }}
       >
         <span

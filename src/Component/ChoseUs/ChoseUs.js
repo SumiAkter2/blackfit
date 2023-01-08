@@ -1,11 +1,11 @@
 import React from "react";
 import CountUp from "react-countup";
-
+import './ChoseUs.css';
 const ChoseUs = () => {
   return (
     <div className="bg-black">
       <h1
-        className="text-center bg-black lg:text-5xl text-3xl font-bold py-12 "
+        className="text-center bg-black lg:text-5xl text-3xl font-bold py-12 chooseUs-content"
         style={{ fontSize: "90px" }}
       >
         <span className="text-black " style={{ WebkitTextStroke: "1px white" }}>

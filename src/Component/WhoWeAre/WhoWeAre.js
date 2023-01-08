@@ -8,7 +8,7 @@ const WhoWeAre = () => {
   return (
     <div className="bg-black pb-24">
       <h1
-        className="text-center  lg:text-5xl text-3xl font-bold pt-6"
+        className="text-center  lg:text-5xl text-3xl font-bold pt-6 weAre-content"
         style={{ fontSize: "90px" }}
       >
         <span className="text-black" style={{ WebkitTextStroke: "1px white" }}>
@@ -23,9 +23,7 @@ const WhoWeAre = () => {
         lacus vel facilisis
       </p>
       <div className="container mx-auto ">
-        <div
-          className="bg-video h-[310px] bg-cover bg-center bg-no-repeat lg:h-[422px]  lg:w-[900px] w-[400px]  flex justify-center items-center rounded-md mt-[60px] pb-12  mx-auto  "
-        >
+        <div className="bg-video h-[310px] bg-cover bg-center bg-no-repeat lg:h-[422px]  lg:w-[900px] w-[400px]  flex justify-center items-center rounded-md mt-[60px] pb-12  mx-auto  ">
           <div
             onClick={() => setIsOpen(!isOpen)}
             className="text-6xl lg:text-[120px] cursor-pointer hover:scale-130 transition text-orange"
@@ -35,12 +33,12 @@ const WhoWeAre = () => {
         </div>
       </div>
       <ModalVideo
-        width="850"
+        width="550"
         height="600"
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="MKCAnRV9w_c"
+        videoId="8YGHbN-Xq4w"
         onClose={() => setIsOpen(false)}
       />
       <div className="flex justify-center items-center mt-12">

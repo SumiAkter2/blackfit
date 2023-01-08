@@ -3,3 +3,8 @@
     background-position: center;
     background-size: cover;
 }
+@media screen and (max-width:560px) {
+  .pricing-content span{
+        font-size: 25px;
+    }
+}

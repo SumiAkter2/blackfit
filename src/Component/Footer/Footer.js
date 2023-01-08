@@ -4,31 +4,31 @@ import brandLogo from "../../img/1471828-middle-removebg-preview.png";
 const Footer = () => {
   return (
     <div>
-      <div className="footer-container ">
+      <div className="footer-container mx-auto">
         <footer className="footer p-10 bg-black text-primary ">
-          <div>
+          <div className="mx-auto lg:mx-6">
             <span className="footer-title">Services</span>
             <a className="link link-hover">Branding</a>
             <a className="link link-hover">Design</a>
             <a className="link link-hover">Marketing</a>
             <a className="link link-hover">Advertisement</a>
           </div>
-          <div>
+          <div className="mx-auto lg:mx-6">
             <span className="footer-title">Company</span>
             <a className="link link-hover">About us</a>
             <a className="link link-hover">Contact</a>
             <a className="link link-hover">Jobs</a>
             <a className="link link-hover">Press kit</a>
           </div>
-          <div>
+          <div className="mx-auto lg:mx-6">
             <span className="footer-title">Legal</span>
             <a className="link link-hover">Terms of use</a>
             <a className="link link-hover">Privacy policy</a>
             <a className="link link-hover">Cookie policy</a>
           </div>
         </footer>
-        <footer className="footer px-10 py-4 border-t bg-black text-white border-base-200">
-          <div className="items-center grid-flow-col">
+        <footer className="footer px-10 py-4 border-t bg-black text-white border-base-200 ">
+          <div className="items-center grid-flow-col mx-auto lg:mx-6">
             <img className="w-12 h-12" src={brandLogo} alt="brandLogo" />
             <p>
               <span className="text-xl font-bold">BlackFit</span>
@@ -36,8 +36,8 @@ const Footer = () => {
               KEEP YOUR BODY FIT & STRONG
             </p>
           </div>
-          <div className="md:place-self-center md:justify-self-end">
-            <div className="grid grid-flow-col gap-4">
+          <div className="md:place-self-center md:justify-self-end mx-auto lg:mx-6">
+            <div className="grid grid-flow-col gap-4  ">
               <a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

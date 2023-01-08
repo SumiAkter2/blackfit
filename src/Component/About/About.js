@@ -1,9 +1,11 @@
 import React from "react";
 import aboutImg from "../../img/pexels-scott-webb-136405.jpg";
+import "./About.css";
+
 const About = () => {
   return (
     <section className="hero text-white bg-black">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero-content flex-col lg:flex-row-reverse ">
         <img
           src={aboutImg}
           className="max-w-sm rounded-lg shadow-2xl"

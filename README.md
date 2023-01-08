@@ -1,12 +1,13 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ [BlackFit](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## This is a BlackFit Site 
+### Keep healthy and fit 
 
-In the project directory, you can run:
 
-### `npm start`
+
+### Feature:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

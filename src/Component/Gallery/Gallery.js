@@ -18,104 +18,110 @@ import "./Gallery.css";
 
 const Gallery = () => {
   return (
-      <div>
+    <div>
       <div className="containers bg-black text-white">
         <h2 className="heading-text uppercase text-center lg:text-5xl text-2xl font-bold mb-12">
           OUR <span> GALLERY</span>
         </h2>
-        <ul className="image-gallery ">
-          <li>
-            <img src={img1} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img2} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img9} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img7} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img8} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img3} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img4} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img5} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
+     
+      <div class="row">
+        <div class="column">
+          <img src={img1} style={{ width: "100%" }} className="myImg" alt="gym-img" />
+          
+            <img
+              src={img2}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+            <img
+              src={img3}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+            <img
+              src={img16}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+          </div>
+          <div class="column">
+            <img
+              src={img4}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+            <img
+              src={img5}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+            {/* <img src={img7} style={{ width: "100%" }} className="myImg" alt="gym-img" /> */}
+            <img
+              src={img11}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+          </div>
 
-          <li>
-            <img src={img10} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img12} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img11} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img13} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img14} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img15} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-          <li>
-            <img src={img16} alt="" />
-            <div className="overlays">
-              <span>Image title</span>
-            </div>
-          </li>
-        </ul>
+          <div class="column">
+            <img
+              src={img10}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+            <img
+              src={img8}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+            <img
+              src={img15}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+            <img
+              src={img13}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+          </div>
+
+          <div class="column">
+            <img
+              src={img14}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+            <img
+              src={img12}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+            <img
+              src={img9}
+              style={{ width: "100%" }}
+              className="myImg"
+              alt="gym-img"
+            />
+          </div>
+          {/* <div class="column">
+          
+           
+            
+          </div> */}
+        </div>
       </div>
     </div>
   );

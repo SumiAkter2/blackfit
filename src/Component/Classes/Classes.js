@@ -29,7 +29,7 @@ const Classes = () => {
 
       <div className="lg:flex justify-center items-center py-12 gap-x-6">
         <div className="img-effect mt-4 mx-auto lg:mx-0 ">
-          <img src={img} alt="" className="img-body" />
+          <img src={img} alt="gym-img" className="img-body" />
           <div className="overlay flex justify-between items-center">
             <div>
               <p>Active Adults </p>
@@ -51,7 +51,7 @@ const Classes = () => {
           </div>
         </div>
         <div className="img-effect mt-4 mx-auto lg:mx-0">
-          <img src={img2} alt="" className="img-body" />
+          <img src={img2} alt="gym-img" className="img-body" />
           <div className="overlay flex justify-between items-center">
             <div>
               <p>Active Adults </p>
@@ -73,7 +73,7 @@ const Classes = () => {
           </div>
         </div>
         <div className="img-effect mt-4 mx-auto lg:mx-0">
-          <img src={img3} alt="" className="img-body" />
+          <img src={img3} alt="gym-img" className="img-body" />
           <div className="overlay flex justify-between items-center">
             <div>
               <p>Active Adults </p>
